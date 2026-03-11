@@ -1,0 +1,79 @@
+{
+  "klasse": "Wizard",
+  "level": "1",
+  "spezies": "Half-Elf",
+  "modifier": {
+    "str": "+1",
+    "dex": "+0",
+    "con": "-1",
+    "int": "+2",
+    "wis": "+2",
+    "cha": "+2"
+  },
+  "saving_throw_modifiers": "Strength +1, Dexterity +0, Constitution -1, Intelligence +4, Wisdom +4, Charisma +2. Advantage against being charmed, and magic can't put you to sleep.",
+  "initiative": "+0",
+  "ac": "10",
+  "max_hp": "5",
+  "defenses": "Resistances - Slashing, Psychic; Immunities - Magical Sleep; Vulnerabilities - Radiant",
+  "speed": "30",
+  "actions_extra": "",
+  "bonus_actions": [
+    "Attack with a loaded firearm with the light property (via Firearm Specialist feat)"
+  ],
+  "special": [
+    "Arcane Recovery"
+  ],
+  "items": [
+    {
+      "name": "Dagger",
+      "hit": "+3",
+      "damage": "1d4+1",
+      "type": "Piercing",
+      "notes": "Simple, Finesse, Light, Thrown, Nick, Range (20/60)"
+    },
+    {
+      "name": "Longsword",
+      "hit": "+1",
+      "damage": "1d8+1",
+      "type": "Slashing",
+      "notes": "Martial, Versatile, Sap"
+    },
+    {
+      "name": "Mace of Disruption",
+      "hit": "+1",
+      "damage": "1d6+1 (+2d6 Radiant)",
+      "type": "Bludgeoning",
+      "notes": "Simple, Sap"
+    },
+    {
+      "name": "Fire Bolt",
+      "hit": "+4",
+      "damage": "1d10",
+      "type": "Fire",
+      "notes": "V/S"
+    },
+    {
+      "name": "Unarmed Strike",
+      "hit": "+3",
+      "damage": "2",
+      "type": "Bludgeoning",
+      "notes": ""
+    }
+  ],
+  "senses": "Darkvision 60 ft., Passive Perception 12, Passive Insight 14, Passive Investigation 14",
+  "features_traits_feats": [
+    "Spellcasting",
+    "Arcane Recovery",
+    "Ability Score Increase",
+    "Darkvision",
+    "Fey Ancestry",
+    "Skill Versatility",
+    "Languages",
+    "Firearm Specialist"
+  ],
+  "spells": [
+    "Acid Splash",
+    "Fire Bolt",
+    "Mold Earth"
+  ]
+}

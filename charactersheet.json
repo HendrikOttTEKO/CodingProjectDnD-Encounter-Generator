@@ -1,0 +1,85 @@
+{
+  "klasse": "Fighter",
+  "level": "2",
+  "spezies": "Wood Half-Elf",
+  "modifier": {
+    "str": "+2",
+    "dex": "+3",
+    "con": "+3",
+    "int": "-1",
+    "wis": "+0",
+    "cha": "-1"
+  },
+  "saving_throw_modifiers": "Str +4, Dex +3, Con +5, Int -1, Wis +0, Cha -1; Advantage against being charmed, and magic can't put you to sleep",
+  "initiative": "+3",
+  "ac": "16",
+  "max_hp": "22",
+  "defenses": "Immunities - Magical Sleep",
+  "speed": "35",
+  "actions_extra": "Action Surge (Take one additional action), Charger (Melee weapon attack or shove after Dash)",
+  "bonus_actions": [
+    "Second Wind (Regain 1d10 + 2 HP)",
+    "Charger (Bonus action attack/shove after Dash action)"
+  ],
+  "special": [
+    "Action Surge (1 / Short Rest)",
+    "Second Wind (1 / Short Rest)"
+  ],
+  "items": [
+    {
+      "name": "Crossbow, Light",
+      "hit": "+5",
+      "damage": "1d8+3",
+      "type": "Piercing",
+      "notes": "Simple, Ammunition, Loading, Range, Two-Handed, Slow, Range (80/320)"
+    },
+    {
+      "name": "Dagger",
+      "hit": "+5",
+      "damage": "1d4+3",
+      "type": "Piercing",
+      "notes": "Simple, Finesse, Light, Thrown, Nick, Range (20/60)"
+    },
+    {
+      "name": "Fighting Chain, Sickle",
+      "hit": "+5",
+      "damage": "1d4+3",
+      "type": "Bludgeoning",
+      "notes": "Martial, Damage, Double, Finesse, Reach, Two-Handed, Entangling"
+    },
+    {
+      "name": "Fighting Chain, Sickle",
+      "hit": "+5",
+      "damage": "1d4+3",
+      "type": "Bludgeoning",
+      "notes": "Martial, Damage, Double, Finesse, Reach, Two-Handed, Entangling"
+    },
+    {
+      "name": "Moon-Touched, Rapier",
+      "hit": "+5",
+      "damage": "1d8+3",
+      "type": "Piercing",
+      "notes": "Martial, Finesse, Vex"
+    },
+    {
+      "name": "Unarmed Strike",
+      "hit": "+4",
+      "damage": "3",
+      "type": "Bludgeoning",
+      "notes": ""
+    }
+  ],
+  "senses": "Darkvision 60 ft., Passive Perception 12, Passive Insight 10, Passive Investigation 9",
+  "features_traits_feats": [
+    "Fighting Style: Two-Weapon Fighting",
+    "Second Wind",
+    "Action Surge",
+    "Ability Score Increase",
+    "Darkvision",
+    "Fey Ancestry",
+    "Fleet of Foot (Wood Elf Descent)",
+    "Charger (Feat)",
+    "Soldier Background Proficiencies"
+  ],
+  "spells": []
+}

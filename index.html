@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DnD Encounter Generator</title>
+      <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+        <script src="./script.js"></script>
+        <style src="stylesheet.css"></style>
+    </head>
+    <body>
+        <input type="file" id="pdfFile" accept="application/pdf">
+  <button onclick="uploadPdf()">Character Sheet hochladen</button>
+  <pre id="result">Das Ergebnis erscheint hier...</pre>
+
+  <button onclick="main()">
+    Generiere Gegner
+  </button>
+  <p>Species</p>
+  <p id="Species"></p>
+  <p>AC</p>
+  <p id="ac"></p>
+  <p>HP</p>
+  <p id="hp"></p>
+  <p>Speed</p>
+  <p id="Speed">
+  </p>
+  <p>STR</p>
+  <p id="STR"></p>
+  <p>STR Modifier</p>
+  <p id="STRmod"></p>
+  <p>DEX</p>
+  <p id="DEX"></p>
+  <p>DEX Modifier</p>
+  <p id="DEXmod"></p>
+  <p>CON</p>
+  <p id="CON"></p>
+  <p>CON Modifier</p>
+  <p id="CONmod"></p>
+  <p>INT</p>
+  <p id="INT"></p>
+  <p>INT MOdifier</p>
+  <p id="INTmod"></p>
+  <p>WIS</p>
+  <p id="WIS"></p>
+  <p>WIS Modifier</p>
+  <p id="WISmod"></p>
+  <p>CHA</p>
+  <p id="CHA"></p>
+  <p>CHA Modifier</p>
+  <p id="CHAmod"></p>
+  <p>Skills</p>
+  <p id="Skills">
+  </p>
+  <p>Senses</p>
+  <p id="Senses"></p>
+  <p>Languages</p>
+  <p id="Languages"></p>
+  <p>CR</p>
+  <p id="CR"></p>
+  <p>Bonus</p>
+  <p id="bonus"></p>
+  <p>Action</p>
+  <p id="action"></p>
+  <p>Reaction</p>
+  <p id="reaction"></p>
+    </body>
+</html>
