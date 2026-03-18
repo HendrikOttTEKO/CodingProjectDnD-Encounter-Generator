@@ -1,0 +1,196 @@
+{
+  "feats": [
+    {
+      "name": "Action Surge",
+      "score": "4"
+    },
+    {
+      "name": "Artificier Initiate",
+      "score": "1"
+    },
+    {
+      "name": "Cartomancer",
+      "score": "3"
+    },
+    {
+      "name": "Chef",
+      "score": "3"
+    },
+    {
+      "name": "Defensive Duelist",
+      "score": "2"
+    },
+    {
+      "name": "Elemental Adept",
+      "score": "4"
+    },
+    {
+      "name": "Fey Touched",
+      "score": "4"
+    },
+    {
+      "name": "Fighting Initiate",
+      "score": "3"
+    },
+    {
+      "name": "Gift of the Chromatic Dragon",
+      "score": "3"
+    },
+    {
+      "name": "Gift of the Gem Dragon",
+      "score": "3"
+    },
+    {
+      "name": "Gift of the Metallic Dragon",
+      "score": "3"
+    },
+    {
+      "name": "Gunner",
+      "score": "2"
+    },
+    {
+      "name": "Healer",
+      "score": "3"
+    },
+    {
+      "name": "Heavily Armored",
+      "score": "1"
+    },
+    {
+      "name": "Lucky",
+      "score": "4"
+    },
+    {
+      "name": "Magic Initiate",
+      "score": "2"
+    },
+    {
+      "name": "Metamagic Adept",
+      "score": "4"
+    },
+    {
+      "name": "Medium Armor Master",
+      "score": "3"
+    },
+    {
+      "name": "Piercer",
+      "score": "2"
+    },
+    {
+      "name": "Resilient",
+      "score": "2"
+    },
+    {
+      "name": "Ritual Caster",
+      "score": "2"
+    },
+    {
+      "name": "Shadow Touched",
+      "score": "2"
+    },
+    {
+      "name": "Sharpshooter",
+      "score": "2"
+    },
+    {
+      "name": "Skill Expert",
+      "score": "3"
+    },
+    {
+      "name": "Skilled",
+      "score": "3"
+    },
+    {
+      "name": "Slasher",
+      "score": "2"
+    },
+    {
+      "name": "Spell Sniper",
+      "score": "3"
+    },
+    {
+      "name": "War Caster",
+      "score": "4"
+    },
+    {
+      "name": "Alert",
+      "score": "1"
+    },
+    {
+      "name": "Charger",
+      "score": "2"
+    },
+    {
+      "name": "Crusher",
+      "score": "2"
+    },
+    {
+      "name": "Dual Wielder",
+      "score": "2"
+    },
+    {
+      "name": "Durable",
+      "score": "3"
+    },
+    {
+      "name": "Grappler",
+      "score": "1"
+    },
+    {
+      "name": "Great Weapon Master",
+      "score": "4"
+    },
+    {
+      "name": "Heavy Armor Master",
+      "score": "1"
+    },
+    {
+      "name": "Inspiring Leader",
+      "score": "2"
+    },
+    {
+      "name": "Mage Slayer",
+      "score": "2"
+    },
+    {
+      "name": "Martial Adept",
+      "score": "1"
+    },
+    {
+      "name": "Mobile",
+      "score": "1"
+    },
+    {
+      "name": "Mounted Combat",
+      "score": "3"
+    },
+    {
+      "name": "Shield Master",
+      "score": "2"
+    },
+    {
+      "name": "Polearm Master",
+      "score": "2"
+    },
+    {
+      "name": "Savage Attacker",
+      "score": "1"
+    },
+    {
+      "name": "Sentinel",
+      "score": "4"
+    },
+    {
+      "name": "Skulker",
+      "score": "1"
+    },
+    {
+      "name": "Tavern Brawler",
+      "score": "3"
+    },
+    {
+      "name": "Tough",
+      "score": "2"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "Monster": [
+    {
+      "speciesname": "Aarakocra",
+      "speciestype": "Medium humanoid (aaarkocra), neutral good",
+      "damageresistances": "",
+      "damageimmunities": "",
+      "conditionimmunities": "",
+      "skills": "Skills Perception +5",
+      "Senses": "passive Perception 15",
+      "Languages": "Aurana",
+      "savingthrows": "",
+      "speed": "20 ft., fly 50 ft."
+    },
+    {
+      "speciesname": "Deva",
+      "speciestype": "Medium celestial, lawful good",
+      "damageresistances": "radiant; bludgeoning, piercing, and slashing from nomagical weapons",
+      "damageimmunities": "",
+      "conditionimmunities": "charmed, exhaustion, frightened",
+      "skills": "",
+      "Senses": "darkvision 120ft., passive Perception 19",
+      "Languages": "all, telepathy 120 ft.",
+      "savingthrows": "Wis +9, Cha +9",
+      "speed": "30ft., fly 90 ft."
+    },
+    {
+      "speciesname": "Planetar",
+      "speciestype": "Large celestial, lawful good",
+      "damageresistances": "radiant; bludgeoning, piercing, and slashing from nomagical weapons",
+      "damageimmunities": "",
+      "conditionimmunities": "charmed, exhaustion, frightened",
+      "skills": "Perception +11",
+      "Senses": "truesight 120 ft., passive Perception 21",
+      "Languages": "all, telepathy 120 ft.",
+      "savingthrows": "Con +12, Wis +11, Cha +12",
+      "speed": "40 ft., fly 120 ft."
+    },
+    {
+      "speciesname": "Solar",
+      "speciestype": "Large celestial, lawful good",
+      "damageresistances": "radiant; bludgeoning, piercing, and slashing from nomagical weapons",
+      "damageimmunities": "",
+      "conditionimmunities": "charmed, exhaustion, frightened, poisoned",
+      "skills": "Perception +14",
+      "Senses": "truesight 120 ft., passive Perception 24",
+      "Languages": "all, telepathy 120 ft.",
+      "savingthrows": "Int +14, Wis +14, Cha +17",
+      "speed": "50 ft., fly 150 ft."
+    },
+    {
+      "speciesname": "Animated Armor",
+      "speciestype": "Medium construct, unalinged",
+      "damageresistances": "",
+      "damageimmunities": "poison, psychic",
+      "conditionimmunities": "blinded, charmed, deafened, exhaustion, frigghtened, paralyzed, petrified, poisoned",
+      "skills": "",
+      "Senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
+      "Languages": "-",
+      "savingthrows": "",
+      "speed": "25 ft."
+    },
+    {
+      "speciesname": "Azer",
+      "speciestype": "Medium elemtal, lawful evil",
+      "damageresistances": "",
+      "damageimmunities": "fire, poison",
+      "conditionimmunities": "poisoned",
+      "skills": "",
+      "Senses": "passive Perception 11",
+      "Languages": "Ignan",
+      "savingthrows": "Con +4",
+      "speed": "30 ft."
+    }
+  ]
+}

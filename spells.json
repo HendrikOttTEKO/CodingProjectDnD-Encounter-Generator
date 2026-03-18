@@ -1,0 +1,204 @@
+{
+    "Spells": [
+        {
+            "name": "Fire Bolt",
+            "Spelllevel": "0"
+        },
+        {
+            "name": "Mage Hand",
+            "Spelllevel": "0"
+        },
+        {
+            "name": "Minor Illusion",
+            "Spelllevel": "0"
+        },
+        {
+            "name": "Prestidigitation",
+            "Spelllevel": "0"
+        },
+        {
+            "name": "Vicious Mockery",
+            "Spelllevel": "0"
+        },
+        {
+            "name": "Magic Missile",
+            "Spelllevel": "1"
+        },
+        {
+            "name": "Cure Wounds",
+            "Spelllevel": "1"
+        },
+        {
+            "name": "Shield",
+            "Spelllevel": "1"
+        },
+        {
+            "name": "Sleep",
+            "Spelllevel": "1"
+        },
+        {
+            "name": "Guiding Bolt",
+            "Spelllevel": "1"
+        },
+        {
+            "name": "Misty Step",
+            "Spelllevel": "2"
+        },
+        {
+            "name": "Hold Person",
+            "Spelllevel": "2"
+        },
+        {
+            "name": "Invisibility",
+            "Spelllevel": "2"
+        },
+        {
+            "name": "Spiritual Weapon",
+            "Spelllevel": "2"
+        },
+        {
+            "name": "Shatter",
+            "Spelllevel": "2"
+        },
+        {
+            "name": "Fireball",
+            "Spelllevel": "3"
+        },
+        {
+            "name": "Counterspell",
+            "Spelllevel": "3"
+        },
+        {
+            "name": "Revivify",
+            "Spelllevel": "3"
+        },
+        {
+            "name": "Haste",
+            "Spelllevel": "3"
+        },
+        {
+            "name": "Fly",
+            "Spelllevel": "3"
+        },
+        {
+            "name": "Polymorph",
+            "Spelllevel": "4"
+        },
+        {
+            "name": "Greater Invisibility",
+            "Spelllevel": "4"
+        },
+        {
+            "name": "Banishment",
+            "Spelllevel": "4"
+        },
+        {
+            "name": "Wall of Fire",
+            "Spelllevel": "4"
+        },
+        {
+            "name": "Dimension Door",
+            "Spelllevel": "4"
+        },
+        {
+            "name": "Hold Monster",
+            "Spelllevel": "5"
+        },
+        {
+            "name": "Greater Restoration",
+            "Spelllevel": "5"
+        },
+        {
+            "name": "Bigby's Hand",
+            "Spelllevel": "5"
+        },
+        {
+            "name": "Cone of Cold",
+            "Spelllevel": "5"
+        },
+        {
+            "name": "Scrying",
+            "Spelllevel": "5"
+        },
+        {
+            "name": "Disintegrate",
+            "Spelllevel": "6"
+        },
+        {
+            "name": "Heal",
+            "Spelllevel": "6"
+        },
+        {
+            "name": "Sunbeam",
+            "Spelllevel": "6"
+        },
+        {
+            "name": "Chain Lightning",
+            "Spelllevel": "6"
+        },
+        {
+            "name": "Mass Suggestion",
+            "Spelllevel": "6"
+        },
+        {
+            "name": "Plane Shift",
+            "Spelllevel": "7"
+        },
+        {
+            "name": "Teleport",
+            "Spelllevel": "7"
+        },
+        {
+            "name": "Forcecage",
+            "Spelllevel": "7"
+        },
+        {
+            "name": "Finger of Death",
+            "Spelllevel": "7"
+        },
+        {
+            "name": "Resurrection",
+            "Spelllevel": "7"
+        },
+        {
+            "name": "Antimagic Field",
+            "Spelllevel": "8"
+        },
+        {
+            "name": "Dominate Monster",
+            "Spelllevel": "8"
+        },
+        {
+            "name": "Sunburst",
+            "Spelllevel": "8"
+        },
+        {
+            "name": "Clone",
+            "Spelllevel": "8"
+        },
+        {
+            "name": "Mind Blank",
+            "Spelllevel": "8"
+        },
+        {
+            "name": "Wish",
+            "Spelllevel": "9"
+        },
+        {
+            "name": "Meteor Swarm",
+            "Spelllevel": "9"
+        },
+        {
+            "name": "Power Word Kill",
+            "Spelllevel": "9"
+        },
+        {
+            "name": "Time Stop",
+            "Spelllevel": "9"
+        },
+        {
+            "name": "True Resurrection",
+            "Spelllevel": "9"
+        }
+    ]
+}

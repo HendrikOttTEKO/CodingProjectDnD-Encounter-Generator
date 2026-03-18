@@ -1,0 +1,99 @@
+body {
+    background-color: #eee;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.phb-container {
+    background-color: #FDF1DC; /* Pergament Farbe */
+    width: 800px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid #D1B181;
+}
+
+/* Stat Block Styling */
+.stat-block {
+    column-count: 1; /* Kann auf 2 gesetzt werden für breite Layouts */
+    color: #000;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', 'Georgia', serif;
+    color: #58180D; /* Typisches DnD Rot */
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    font-variant: small-caps;
+    margin: 0;
+}
+
+h3 {
+    border-bottom: 1px solid #58180D;
+    font-size: 21px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #58180D;
+    margin: 10px 0;
+}
+
+.orange-border {
+    height: 4px;
+    background-color: #E69A28;
+}
+
+.red-text {
+    color: #58180D;
+    line-height: 1.4;
+}
+
+/* Stats Table */
+.stats-table {
+    width: 100%;
+    border: none;
+    color: #58180D;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.stats-table th {
+    font-weight: bold;
+}
+
+/* Buttons & Controls */
+.controls {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
+button {
+    background: #58180D;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #822111;
+}
+
+pre {
+    font-size: 0.8em;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+}

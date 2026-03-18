@@ -1,0 +1,84 @@
+{
+  "weapons": [
+    {
+      "name": "shortsword",
+      "attacktype": "melee weapon attack",
+      "damagetype": "slashing damage",
+      "attribute": "strength",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "greatsword",
+      "attacktype": "melee weapon attack",
+      "damagetype": "slashing damage",
+      "attribute": "strength",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "longbow",
+      "attacktype": "ranged weapon attack",
+      "damagetype": "piercing damage",
+      "attribute": "dexterity",
+      "range": "range 150/600 ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "greataxe",
+      "attacktype": "melee weapon attack",
+      "damagetype": "slashing damage",
+      "attribute": "strength",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "dagger",
+      "attacktype": "melee or ranged weapon attack",
+      "damagetype": "piercing damage",
+      "attribute": "dexterity",
+      "range": "reach 5ft. or range 20/60 ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "warhammer",
+      "attacktype": "melee weapon attack",
+      "damagetype": "bludgeoning damage",
+      "attribute": "strength",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "maul",
+      "attacktype": "melee weapon attack",
+      "damagetype": "bludgeoning damage",
+      "attribute": "strength",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "javelin",
+      "attacktype": "melee or ranged weapon attack",
+      "damagetype": "piercing damage",
+      "attribute": "strength",
+      "range": "reach 5ft. or range 30/120 ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "halberd",
+      "attacktype": "melee weapon attack",
+      "damagetype": "slashing damage",
+      "attribute": "strength",
+      "range": "reach 10ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "rapier",
+      "attacktype": "melee weapon attack",
+      "damagetype": "piercing damage",
+      "attribute": "dexterity",
+      "range": "reach 5ft.",
+      "targets": "one target"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+const GEMINI_API_KEY = "";
+
+function doPost(e) {
+  try {
+    const data = JSON.parse(e.postData.contents);
+    const pdfBase64 = data.pdfBase64;
+    
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
+    
+    const payload = {
+  "contents": [{
+    "parts": [
+      {
+        "text": `Extrahiere die Daten aus diesem D&D Bogen exakt in dieses JSON-Format. 
+        Wichtig: Ignoriere erzählende Texte auf Seite 3, konzentriere dich auf die Werte.
+        
+        {
+          "klasse": "z.B. Fighter",
+          "level": "z.B. 2"
+          "spezies": "z.B. Wood Half-Elf",
+          "modifier": {
+            "str": "Wert",
+            "dex": "Wert",
+            "con": "Wert",
+            "int": "Wert",
+            "wis": "Wert",
+            "cha": "Wert"
+          },
+          "saving_throw_modifiers": "Alle gelisteten Modifikatoren",
+          "initiative": "Wert",
+          "ac": "Wert",
+          "max_hp": "Wert",
+          "Resistances": ["Liste der Resistenzen, falls vorhanden"],
+          "Immunities": ["Liste der Immunitäten, falls vorhanden"],
+          "Vulnerabilities": ["Liste der Verwundbarkeiten, falls vorhanden"],
+          "speed": "z.B. 30",
+          "actions_extra": "Alle Aktionen außer den Standard-Aktionen",
+          "bonus_actions": ["Liste"],
+          "special": ["Liste der Special Actions/Abilities"],
+          "items": [
+            {
+              "name": "Name der Waffe",
+              "hit": "Trefferbonus",
+              "damage": "Schaden",
+              "type": "Schadensart",
+              "notes": "Eigenschaften"
+            }
+          ],
+          "senses": "z.B. Darkvision",
+          "features_traits_feats": ["Alle Features, Traits und Feats"],
+          "spells": ["Liste der Zauber, falls vorhanden"]
+        }
+        Gib NUR das JSON zurück.`
+      },
+      {
+        "inline_data": {
+          "mime_type": "application/pdf",
+          "data": pdfBase64
+        }
+      }
+    ]
+  }],
+  "generationConfig": {
+    "response_mime_type": "application/json"
+  }
+};
+
+    const options = {
+      "method": "post",
+      "contentType": "application/json",
+      "payload": JSON.stringify(payload)
+    };
+
+    const response = UrlFetchApp.fetch(url, options);
+    const result = JSON.parse(response.getContentText());
+    const aiResponse = result.candidates[0].content.parts[0].text;
+
+    // Rückgabe an deine Webseite
+    return ContentService.createTextOutput(aiResponse)
+      .setMimeType(ContentService.MimeType.JSON);
+
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({"error": err.toString()}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
